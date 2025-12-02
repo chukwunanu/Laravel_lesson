@@ -5,9 +5,10 @@ use Illuminate\Support\Facades\Route;
 use App\Models\Job;
 
 
-// Route::get('/', function () {
-//     return view('home');
-// });
+Route::get('/', function () {
+
+    return view('home');
+});
 
 
 
